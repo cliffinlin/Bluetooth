@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.bxy.arduino_bt_android.MainActivity">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect"
+                android:id="@+id/Btopen"/>
+            <Space android:layout_width="5dp"
+                android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disconnect"
+                android:id="@+id/Btclose"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device name"
+                android:textSize="18sp"/>
+            <Space android:layout_width="5dp"
+                android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/device_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device address:"
+                android:textSize="18sp"/>
+            <Space android:layout_width="5dp"
+                android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/device_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="18sp"/>
+            <Space android:layout_width="5dp"
+                android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/connection_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disconnected"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/edit_message"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Edit text here" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Send"
+            android:id="@+id/BtSend" />
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.bxy.arduino_bt_android.MainActivity">
+
+    <TextView android:id="@+id/TV"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+         />
+
+</LinearLayout>
+
+</LinearLayout>
