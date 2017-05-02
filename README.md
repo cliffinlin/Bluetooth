@@ -1,9 +1,9 @@
-# Bluetooth
+# Arduino-BT-Android
 蓝牙模块HC05和Android通信的App
 
 ### HC05蓝牙模块
 
-作为Server，设置成从模式
+作为Server，设置成从模式（AT+TYPE=0）
 
 ### 手机
 
