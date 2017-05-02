@@ -1,7 +1,3 @@
-
-# Arduino-BT-Android
-蓝牙模块HC05和Android通信的App
-
 # Bluetooth
 Arduino-BT-Android文件夹下是使用蓝牙模块HC05和Android通信的App, 以arduino作为蓝牙的控制端
 
