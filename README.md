@@ -2,7 +2,7 @@
 Arduino-BT-Android文件夹下是使用蓝牙模块HC05和Android通信的App, 以arduino作为蓝牙的控制端
 Arduino-BLE-Android文件夹下是使用低功耗蓝牙模块和Android通信的App
 
-##Arduino-BT-Android
+## Arduino-BT-Android
 
 ### HC05蓝牙模块
 
@@ -14,7 +14,7 @@ Arduino-BLE-Android文件夹下是使用低功耗蓝牙模块和Android通信的
 
 ----
 
-##Arduino-BLE-Android
+## Arduino-BLE-Android
 
 ### 低功耗蓝牙模块
 
